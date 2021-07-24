@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- A meta tag, viewport serve para deixar o site responsivo. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Título para Aba de Navegação -->
+    <title>University Page</title>
+</head>
+
+<body>
+
+    <!-- START OF MAIN MENU -->
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="assets/img/logo.png" alt="Logo da Universidade"></a>
+            <div class="nav-links" id="navLinks">
+                <!-- "OnClick" evento que ativará a função variável hideMenu -->
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">COURSE</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <!-- "OnClick" evento que ativará a função variável showMenu -->
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <!-- "SLOGAN / TEXTO DA PÁGINA PRINCIPAL" -->
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>Making website is now one of the easiest thing in the world.You just need to learn HTML, CSS <br> JavaScript and you're good to go.
+            </p>
+            <a href="#" class="hero-btn">Visit Us To Know More</a>
+        </div>
+
+    </section>
+
+    <!-- END OF MAIN MENU -->
+
+    <!-- START OF COURSES SECTION -->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, nisi?</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis neque vel natus consectetur non nisi cupiditate consequuntur fugit? Blanditiis, officia.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis neque vel natus consectetur non nisi cupiditate consequuntur fugit? Blanditiis, officia.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis neque vel natus consectetur non nisi cupiditate consequuntur fugit? Blanditiis, officia.</p>
+            </div>
+        </div>
+    </section>
+    <!--  END OF COURSES SECTION -->
+
+    <!-- Start of Campus -->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, sit!</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="assets/img/london.png" alt="London image">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="assets/img/newyork.png" alt="London image">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="assets/img/washington.png" alt="London image">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Campus -->
+
+    <!-- Facilities -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, id?</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="assets/img/library.png">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, minus aliquid voluptatem ab rem aliquam.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="assets/img/basketball.png">
+                <h3>Large PlayGround</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, minus aliquid voluptatem ab rem aliquam.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="assets/img/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, minus aliquid voluptatem ab rem aliquam.</p>
+            </div>
+        </div>
+    </section>
+    <!-- End of Facilities -->
+
+    <!-- testimonials -->
+    <section class="testimonials">
+        <h1>What Our Students Say</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim dolorum dolor officiis illum ipsa deleniti, accusantium distinctio atque amet.</p>
+
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="assets/img/user1.jpg">
+                <div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti blanditiis amet repellat architecto ut adipisci deleniti quia nostrum rem commodi?</p>
+                    <h3>Britney Spears, Bahia</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="assets/img/user2.jpg">
+                <div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti blanditiis amet repellat architecto ut adipisci deleniti quia nostrum rem commodi?</p>
+                    <h3>Tom Cavalcante, Italy</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of testimonials -->
+
+<!-- Call to Action -->
+    <section class="cta">
+        <h1>Enroll for our various online courses <br> Anywhere from the World.</h1>
+        <a href="#" class="hero-btn">CONTACT US</a>
+    </section>
+<!-- End of Call to Action -->
+
+<!-- Footer -->
+    <footer>
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quidem, minus ducimus sapiente esse eaque temporibus <br>amet eveniet ipsam magnam.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>By Gabriel C.</p>
+    </footer>
+<!-- End of Footer -->
+    
+<!-- JavaScript para dar efeito ao menu. -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>

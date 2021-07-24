@@ -1,0 +1,7 @@
+Dicas & Truques
+
+1. Sempre que for fazer uma barra de navegação, é interessante utilizar listas ordenadas.
+2. Buscar o máximo de precisão na hora de estilizar e organizar.
+3. FontAwesome tem scripts já pré-carregados.
+4. Use a função "onclick" no HTMl
+5. A cada nova section, verificar a possibilidade de já converte-la a mobile.
